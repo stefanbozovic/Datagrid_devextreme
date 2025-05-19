@@ -1,0 +1,101 @@
+#employees {
+  max-height: 440px;
+}
+
+.options {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option {
+  margin-top: 10px;
+}
+
+.option > span {
+  margin-right: 10px;
+}
+
+.option > .dx-selectbox {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.selectbox-container {
+  display: flex;
+}
+
+.checkboxes-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.checkboxes-container > .option {
+  margin: 10px 30px 10px 0;
+  width: 200px;
+}
+.dx-datagrid-columns-separator {
+  background: blue;
+}
+
+.dx-datagrid-headers {
+  background-color: #f6f8fa !important;
+}
+.dx-datagrid-filter-row {
+  background-color: #f6f8fa !important;
+}
+
+.dx-datagrid .dx-row-alt > td {
+  background-color: #efefef4e !important;
+}
+.dx-header-filter-menu .dx-popup-content {
+  padding: 0px !important;
+}
+.dx-list-search {
+  margin: 8px 8px !important;
+}
+.dx-datagrid .dx-header-row .dx-sort-none,
+.dx-datagrid .dx-header-row .dx-sort-up,
+.dx-datagrid .dx-header-row .dx-sort-down,
+.dx-datagrid .dx-header-row .dx-header-filter {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: inline-block !important;
+}
+
+.dx-datagrid .dx-header-row td.dx-datagrid-action:hover .dx-sort-none::before {
+  display: inline-block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-family: DXIcons, sans-serif;
+  content: "\f055" !important;
+}
+.dx-sort-none:hover,
+.dx-sort-up:hover,
+.dx-sort-down:hover {
+  display: inline-block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-family: DXIcons, sans-serif;
+  content: "Roight click" !important;
+}
+.dx-datagrid-action:hover {
+  max-width: calc(100% - 41px) !important;
+}
+.dx-column-indicators {
+  min-width: 14px;
+}
+.dx-datagrid-headers {
+  border-radius: 4px 4px 0px 0px !important;
+}
+.dx-datagrid {
+  border-radius: 0px 0px 4px 4px !important;
+}

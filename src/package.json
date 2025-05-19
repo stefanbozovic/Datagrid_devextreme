@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@devextreme/runtime": "3.0.12",
+    "devexpress-diagram": "2.2.16",
+    "devexpress-gantt": "4.1.60",
+    "devextreme": "24.2.7",
+    "devextreme-cldr-data": "1.0.3",
+    "devextreme-quill": "1.7.1",
+    "devextreme-react": "24.2.7",
+    "es6-object-assign": "latest",
+    "inferno": "7.4.11",
+    "inferno-clone-vnode": "latest",
+    "inferno-compat": "latest",
+    "inferno-create-class": "latest",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "latest",
+    "inferno-hydrate": "latest",
+    "jszip": "3.10.1",
+    "luxon": "3.4.4",
+    "prettier": "2.8.8",
+    "prop-types": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rrule": "2.6.4"
+  },
+  "description": "To change column visibility at runtime, set the columnChooser.enabled property to true. To make certain that a given column(s) always stay visible, set the columns[].allowHiding property to false.\nTo display the column chooser, click the appropriate toolbar button above the DataGrid. You can specify the column chooser's position via the columnChooser.position property. The manner in which users can display/hide columns depends on columnChooser.mode:\n\n\n\"dragAndDrop\"\nUsers can drag and drop column headers to and from the column chooser.\n\n\n\"select\"\nUsers can select and deselect check boxes with column names.\n\n\nIn \"select\" mode, you can choose whether parent element selection affects child/nested elements. Use the selection.recursive property for this purpose.\nIf the column chooser contains multiple hidden columns, you can enable the DevExtreme Grid’s column search UI. Assign true to the search.enabled property for this purpose.\nIn this demo, use the check boxes below the DataGrid to toggle search and selection features.\nTo hide a column in code, set the columns[].visible property to false.\n",
+  "name": "Column Chooser"
+}
